@@ -22,8 +22,8 @@ DB_NAME=$(php <<< "${wp_config};echo DB_NAME;")
 DB_ARGS="-u $DB_USR -p$DB_PSW -h $DB_HOST $DB_NAME"
 
 # Email settings
-EMAIL_ADDRESS_AWS="contato@editalconcursosbrasil.com.br"
-EMAIL_ADDRESS_USR="fabio.montefuscolo@gmail.com"
+EMAIL_ADDRESS_AWS="contato@site.com.br"
+EMAIL_ADDRESS_USR="admin@mail.com"
 EMAIL_SUBJ="AWS Backup Error `hostname`"
 EMAIL_TEXT="Ocorreu um erro ao criar backup do banco de dados. Base de dados: ${DB_NAME}."
 
